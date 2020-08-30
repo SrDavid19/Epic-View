@@ -1,0 +1,125 @@
+#fondo{
+    background-image: url("../img/fondoDes.jpg");
+}
+#body
+{
+    background-image: url("../img/fondo.jpg");    
+}
+
+.logo{
+    width:85px;
+    height: 35px;
+    margin: 1%;
+}
+.cont{
+    width: 100%;
+    margin-top: 3%;
+
+}
+h2{
+    color: white;
+}
+.label{
+    color:white;
+    font-size: 15pt;
+}
+.Litlelabel{
+    color:white;
+    font-size: 10pt;
+}
+.MenuPicture{
+    width: 525px;
+    height: 310px;
+    margin-top:10%;
+    -webkit-filter: grayscale(1);
+}
+.MenuPicture:hover{
+    width: 570px;
+    height: 340px;
+    transition: 1s;
+    margin-left: -5%;
+    -webkit-filter: none;
+}
+.MenuPicture:not(:hover){
+    width: 525px;
+    height: 310px;
+    transition: 1s;
+}
+.title{
+    color: white;
+    text-align: center;
+}
+.Bigtitle{
+    color: white;
+    text-align: center;
+}
+.breadcrumb{
+    width: 25%;
+    margin-top: 1%;
+} 
+
+/* background-color: #353a40;*/
+#contenedor{
+    width: 95%;
+    margin: 2.5%;
+}
+.poster{
+    text-align: center;
+    width: 325px;
+    height: 500px;
+    margin: 5%;
+}
+.poster:hover{
+    width: 335px;
+    height: 510px;
+    transition: 0.5s;
+}
+.poster:not(:hover){
+    width: 325px;
+    height: 500px;
+    transition: 1s;
+}
+
+/*Validaciones de tamaño*/
+/*Grande*/
+#contenedor .imgBox {
+    font-size : 1em;
+    padding-bottom : 10px;
+    margin : 30px 1.4% 10px;
+    display : inline-block;
+    float : none;
+    vertical-align : top;
+    text-align : center;
+}
+
+/*Mediano*/
+#contenedor .imgBox {
+    font-size : 0.8em;
+    padding-bottom : 10px;
+    margin : 10px 1%;
+    display : inline-block;
+    float : none;
+    vertical-align : top;
+    width: 33%;
+    text-align : center;
+}
+/*Pequeño*/
+#contenedor .imgBox {
+    font-size : 0.8em;
+    padding-bottom : 10px;
+    margin : 10px auto;
+    float : none;
+    width: 100%;
+    text-align : center;
+}
+.footer{
+    background-color: #353a40;
+    margin-top: 10%;
+    bottom: 0;
+}
+.IniciarSesion{
+    width: 100%;
+}
+
+
+
