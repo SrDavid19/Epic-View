@@ -114,12 +114,13 @@ h2{
 }
 .footer{
     background-color: #353a40;
-    margin-top: 10%;
+    margin-top: 0%;
     bottom: 0;
 }
 .IniciarSesion{
     width: 100%;
 }
 
-
-
+body{
+    margin:0;
+}
